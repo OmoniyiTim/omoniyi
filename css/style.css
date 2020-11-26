@@ -761,27 +761,51 @@ section.dark{
   @media only screen and (max-width: 1023px) {
 	#section-hero {
 		background-image: url(../images/portfolio/illus.jpg);
-		background-size: 32em 29em!important;
+		background-size: 29em 26em!important;
 		background-repeat: no-repeat!important;
 		background-position-y: 6em!important;
-		background-position-x: 4em!important;
+		background-position-x: 3em!important;
+	}
+	.tim {
+		font-size: 37px;
+		margin-bottom: 20px;
+		line-height: 56px;
+		letter-spacing: -1px;
 	}
   }
-  @media only screen and (max-width: 1023px) {
+  @media only screen and (max-width: 768px) {
 	#section-hero {
 		background-image: url(../images/portfolio/illus.jpg);
 		background-size: 36em 26em!important;
 		background-repeat: no-repeat!important;
-		background-position-y: 4em!important;
-		background-position-x: 6em!important;
-		
+		background-position-y: 2em!important;
+		background-position-x: 28em!important;
 	}
-	h1, .h1 {
+	.tim-text{
+		width: 60%;
+
+	}
+
+  }
+  @media only screen and (max-width: 414px) {
+	#section-hero {
+		background-image:none;
+		background-size: 36em 26em!important;
+		background-repeat: no-repeat!important;
+		background-position-y: 2em!important;
+		background-position-x: 28em!important;
+	}
+	.tim-text{
+		width: 100%;
+
+	}
+	.tim {
 		font-size: 27px;
 		margin-bottom: 20px;
-		line-height: 42px;
+		line-height: 39px;
 		letter-spacing: -1px;
 	}
+
   }
 
 .bgcolor-variation{
