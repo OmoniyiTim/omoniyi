@@ -724,10 +724,9 @@ header.header-mobile #menu-btn {
 
 
 /* ================================================== */
-
 section {
-	padding: 90px 0 90px 0;
-	position: relative;
+    padding: 5px 0 90px 0;
+    position: relative;
 }
 section:not(.relative){
 	
